@@ -3,66 +3,77 @@
     "name": "SuperAGI",
     "url": "https://serp.ly/superagi",
     "description": "Open-source framework enabling scalable creation and deployment of autonomous AI agents.",
-    "category": "Autonomous Agent Development"
-  },
-  {
-    "name": "Relay.app",
-    "url": "https://serp.ly/relay.app",
-    "description": "A no-code AI workflow platform offering intuitive drag-and-drop interfaces and templates.",
-    "category": "No-Code Workflow Automation"
-  },
-  {
-    "name": "Auto-GPT",
-    "url": "https://serp.ly/agpt",
-    "description": "Experimental autonomous AI leveraging GPT-4 to accomplish user-defined objectives.",
-    "category": "Autonomous Task Completion"
-  },
-  {
-    "name": "AgentGPT",
-    "url": "https://serp.ly/agentgpt",
-    "description": "Web-based no-code platform for setting up and deploying AI agents directly online.",
-    "category": "No-Code AI Deployment"
-  },
-  {
-    "name": "BabyAGI",
-    "url": "https://serp.ly/babyagi",
-    "description": "Simplified AI framework enabling autonomous task execution using GPT technology.",
-    "category": "Task Automation Framework"
+    "category": "Autonomous Agent Development",
+    "order": 1
   },
   {
     "name": "CrewAI",
     "url": "https://serp.ly/crewai",
     "description": "Python framework that manages role-specific AI agents collaborating on tasks.",
-    "category": "Multi-Agent Collaboration"
+    "category": "Multi-Agent Collaboration",
+    "order": 3
+  },
+  {
+    "name": "Relay.app",
+    "url": "https://serp.ly/relay.app",
+    "description": "A no-code AI workflow platform offering intuitive drag-and-drop interfaces and templates.",
+    "category": "No-Code Workflow Automation",
+    "order": 2
+  },
+  {
+    "name": "Auto-GPT",
+    "url": "https://serp.ly/agpt",
+    "description": "Experimental autonomous AI leveraging GPT-4 to accomplish user-defined objectives.",
+    "category": "Autonomous Task Completion",
+    "order": 4
+  },
+  {
+    "name": "AgentGPT",
+    "url": "https://serp.ly/agentgpt",
+    "description": "Web-based no-code platform for setting up and deploying AI agents directly online.",
+    "category": "No-Code AI Deployment",
+    "order": 5
+  },
+  {
+    "name": "BabyAGI",
+    "url": "https://serp.ly/babyagi",
+    "description": "Simplified AI framework enabling autonomous task execution using GPT technology.",
+    "category": "Task Automation Framework",
+    "order": 6
   },
   {
     "name": "AutoGen",
     "url": "https://serp.ly/autogen",
     "description": "Framework supporting multiple AI agents interacting and solving complex problems collaboratively.",
-    "category": "Multi-Agent System"
+    "category": "Multi-Agent System",
+    "order": 7
   },
   {
     "name": "GPT Engineer",
     "url": "https://serp.ly/lovable.dev",
     "description": "AI agent generating complete codebases from user instructions using GPT models.",
-    "category": "Code Generation"
+    "category": "Code Generation",
+    "order": 8
   },
   {
     "name": "Gumloop",
     "url": "https://gumloop.com",
     "description": "Advanced marketing-focused automation platform supporting workflows with multiple language models.",
-    "category": "Marketing Automation"
+    "category": "Marketing Automation",
+    "order": 9
   },
   {
     "name": "LangChain",
     "url": "https://langchain.com",
     "description": "Context-sensitive agents offering task chaining, memory handling, and integration with APIs/databases.",
-    "category": "Task Automation Framework"
+    "category": "Task Automation Framework",
+    "order": 10
   },
   {
     "name": "Salesforce Agentforce",
     "url": "https://salesforce.com/agentforce",
     "description": "CRM-focused automation tool for lead scoring, follow-up tasks, and multi-channel outreach.",
-    "category": "CRM Automation"
+    "category": "CRM Automation",
+    "order": 11
   }
 ]
