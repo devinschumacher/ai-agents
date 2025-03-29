@@ -49,27 +49,31 @@
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
   <script>
-    fetch('ai-agents.json')
-      .then(response => response.json())
-      .then(data => {
-        data.sort((a, b) => a.order - b.order);
-        const tableBody = document.getElementById('agentsTableBody');
-        data.forEach(agent => {
-          const row = `
-            <tr>
-              <td><a href="${agent.url}" target="_blank">${agent.name}</a></td>
-              <td>${agent.description}</td>
-              <td>${agent.category}</td>
-            </tr>
-          `;
-          tableBody.innerHTML += row;
-        });
+   fetch('ai-agents.json')
+  .then(response => response.json())
+  .then(data => {
+    data.sort((a, b) => Number(a.order) - Number(b.order));
 
-        $('#agentsTable').DataTable({
-          "pageLength": 100
-        });
-      })
-      .catch(error => console.error('Error loading JSON:', error));
+    const tableBody = document.getElementById('agentsTableBody');
+    tableBody.innerHTML = ''; // clear table first
+
+    data.forEach(agent => {
+      const row = `
+        <tr>
+          <td><a href="${agent.url}" target="_blank">${agent.name}</a></td>
+          <td>${agent.description}</td>
+          <td>${agent.category}</td>
+        </tr>
+      `;
+      tableBody.innerHTML += row;
+    });
+
+    $('#agentsTable').DataTable({
+      "pageLength": 100
+    });
+  })
+  .catch(error => console.error('Error loading JSON:', error));
+
   </script>
 </body>
 </html>
