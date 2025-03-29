@@ -2,8 +2,6 @@
 
 - [Click here to view the full interactive version](https://devinschumacher.github.io/ai-agents/best.html)
 
-Here's your JSON data converted into a markdown table:
-
 | Order | Name | Description | Category | URL |
 |-------|------|-------------|----------|-----|
 | 1 | SuperAGI | Open-source framework enabling scalable creation and deployment of autonomous AI agents. | Autonomous Agent Development | [Link](https://serp.ly/superagi) |
@@ -17,6 +15,3 @@ Here's your JSON data converted into a markdown table:
 | 9 | Gumloop | Advanced marketing-focused automation platform supporting workflows with multiple language models. | Marketing Automation | [Link]([https://gumloop.com](https://devinschumacher.github.io/ai-agents/best.html)) |
 | 10 | LangChain | Context-sensitive agents offering task chaining, memory handling, and integration with APIs/databases. | Task Automation Framework | [Link]([https://langchain.com](https://devinschumacher.github.io/ai-agents/best.html)) |
 | 11 | Salesforce Agentforce | CRM-focused automation tool for lead scoring, follow-up tasks, and multi-channel outreach. | CRM Automation | [Link]([https://salesforce.com/agentforce](https://devinschumacher.github.io/ai-agents/best.html)) |
-
-Let me know if you need further modifications!
-
